@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flores</title>
+    <meta property="og:title" content="Tus flores amarillas al estilo programador.💐" />
+    <meta property="og:description" content="Este es un pequeño detalle para ti mi vida, yo se que quizá no es lo tipico pero seguro que te gustará. ❤" />
+    <meta property="og:image" content="https://images.app.goo.gl/RrtVVRi46N2gUuRy5" />
+    <meta property="og:url" content="herwingx.github.io/yellow-flowers/" />
+    <meta property="og:type" content="website" />
+
     <style>
-        body, html {
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body,
+        html {
             margin: 0;
             padding: 0;
             height: 100%;
@@ -17,7 +33,8 @@
             font-family: 'Arial', sans-serif;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
             text-align: center;
@@ -25,21 +42,23 @@
 
         h1 {
             font-size: 8vw;
-            animation: fadeInOut 3s infinite; /* Animación suave */
+            animation: fadeInOut 3s infinite;
+            /* Animación suave */
         }
 
         h2 {
             font-size: 4vw;
             margin-top: 20px;
-            animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
+            animation: pulse 2s infinite;
+            /* Pequeño efecto de pulsación */
         }
 
         button {
-            font-size: 3vw;
+            font-weight: bold;
+            font-size: 24px;
             padding: 15px 30px;
             margin-top: 30px;
             border: none;
-            margin-left: 200px;
             background-color: #ff3366;
             color: white;
             cursor: pointer;
@@ -48,24 +67,31 @@
         }
 
         @keyframes fadeInOut {
-            0%, 100% {
+
+            0%,
+            100% {
                 opacity: 0.8;
             }
+
             50% {
                 opacity: 1;
             }
         }
 
         @keyframes pulse {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: scale(1);
             }
+
             50% {
                 transform: scale(1.05);
             }
         }
     </style>
 </head>
+
 <body>
     <div>
         <h1>¡Cielito!. 🩵</h1>
@@ -73,4 +99,5 @@
         <button onclick="window.location.href='rosas.html'">Ver regalo</button>
     </div>
 </body>
+
 </html>
